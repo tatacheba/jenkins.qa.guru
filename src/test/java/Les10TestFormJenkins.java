@@ -23,6 +23,7 @@ public class Les10TestFormJenkins {
     @Test
     void fillTestForm() {
         SelenideLogger.addListener("allure", new AllureSelenide());
+
         open("/automation-practice-form");
         $(".practice-form-wrapper > h5").shouldHave(text("Student Registration Form"));
         $("#firstName").setValue("Steve");
