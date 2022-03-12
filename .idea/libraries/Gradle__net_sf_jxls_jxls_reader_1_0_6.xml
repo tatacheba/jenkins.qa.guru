@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.sf.jxls:jxls-reader:1.0.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jxls/jxls-reader/1.0.6/e63159b5ef87edc4d862a635f768acd75938b73e/jxls-reader-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jxls/jxls-reader/1.0.6/a6bd037c735611bc1d98dabfed201440e0f2788f/jxls-reader-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
