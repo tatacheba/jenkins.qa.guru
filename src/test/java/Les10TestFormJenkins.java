@@ -13,6 +13,7 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static io.qameta.allure.Allure.step;
 
 public class Les10TestFormJenkins {
+
     RegistrationPages registrationPage = new RegistrationPages();
     CalendarComponent calendarComponent = new CalendarComponent();
     PathComponent pathComponent = new PathComponent();

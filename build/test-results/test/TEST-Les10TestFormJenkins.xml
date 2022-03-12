@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Les10TestFormJenkins" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-12T07:56:14" hostname="LAPTOP-HONOR" time="17.625">
+  <properties/>
+  <testcase name="fillTextForm()" classname="Les10TestFormJenkins" time="17.625"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 50340
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мар. 12, 2022 10:56:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+мар. 12, 2022 10:56:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 97
+мар. 12, 2022 10:56:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 99 of 97
+]]></system-err>
+</testsuite>
