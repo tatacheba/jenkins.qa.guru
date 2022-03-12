@@ -57,7 +57,7 @@ public class Les10TestFormJenkins {
                 text("NCR Noida"));
         $("#closeLargeModal").shouldHave(text("Close")).click();
     }
-    
+
     @AfterEach
     void addAttachments() {
         AttachAllure.screenshotAs("Last screenshot");
