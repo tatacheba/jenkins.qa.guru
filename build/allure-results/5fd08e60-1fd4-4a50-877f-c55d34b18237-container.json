@@ -1,1 +1,0 @@
-{"uuid":"5fd08e60-1fd4-4a50-877f-c55d34b18237","name":"Les10TestFormJenkins","children":["cc6474b5-1d1b-45ac-9ea1-011795622bde"],"befores":[{"name":"openBrowser","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1647076338238,"stop":1647076338278}],"afters":[],"start":1647076338165,"stop":1647076359186}
