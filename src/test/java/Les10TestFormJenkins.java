@@ -105,7 +105,6 @@ public class Les10TestFormJenkins {
 
     @AfterEach
     void addAttachments() {
-
         AttachAllure.screenshotAs("Last screenshot");
         AttachAllure.pageSource();
         AttachAllure.browserConsoleLogs();
