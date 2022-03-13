@@ -45,7 +45,8 @@ public class Les10TestFormJenkins {
         $(".react-datepicker__day--004").click();
         $("#subjectsInput").setValue("Art").pressEnter();
         $(byText("Sports")).click();
-        $("#uploadPicture").uploadFile(new File("src/test/resources/capitanamerica.jpg"));
+        $("#uploadPicture").
+                uploadFile(new File("src/test/resources/capitanamerica.jpg"));
         $("#currentAddress").setValue("Earth-616, New York City");
         $("#state").click();
         $(byText("NCR")).click();
