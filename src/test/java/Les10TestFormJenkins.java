@@ -45,8 +45,7 @@ public class Les10TestFormJenkins {
         $(".react-datepicker__day--004").click();
         $("#subjectsInput").setValue("Art").pressEnter();
         $(byText("Sports")).click();
-        $("#uploadPicture").
-                uploadFile(new File("src/test/resources/capitanamerica.jpg"));
+//        $("#uploadPicture").uploadFile(new File("src/test/resources/capitanamerica.jpg"));
         $("#currentAddress").setValue("Earth-616, New York City");
         $("#state").click();
         $(byText("NCR")).click();
@@ -62,7 +61,7 @@ public class Les10TestFormJenkins {
                 text("04 July,1918"),
                 text("Arts"),
                 text("Sports"),
-                text("capitanamerica.jpg"),
+//                text("capitanamerica.jpg"),
                 text("Earth-616, New York City"),
                 text("NCR Noida"));
         $("#closeLargeModal").shouldHave(text("Close")).click();
