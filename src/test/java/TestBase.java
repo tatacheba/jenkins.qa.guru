@@ -17,12 +17,14 @@ public class TestBase {
         browserSize = "1920x1080";
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
         Configuration.browserCapabilities = capabilities;
+
+        String user = System.getProperty("user");
+        String password = System.getProperty("password");
+        Configuration.remote = "https://" + user + ":" + password + "@" + System.getProperty("remoteBrowser");
     }
     @AfterEach
     void addAttachments() {
