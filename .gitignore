@@ -33,7 +33,7 @@ allure-results/
 bin/
 out/
 logs/
-target/
+#target/
 .classpath
 .project
 .settings/org.eclipse.buildship.core.prefs
