@@ -78,6 +78,6 @@ public class Les10TestFormJenkins extends TestBase {
     @Test
     @Tag("smoke")
     void smokeTest(){
-        System.out.println(System.getProperty("Hello!!!"));
+        System.out.println(System.getProperty("user"));
     }
 }
