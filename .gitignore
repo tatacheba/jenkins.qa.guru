@@ -29,11 +29,11 @@
 .gradle/
 allure-results/
 #gradle/
-#build/
+build/
 bin/
 out/
 logs/
-#target/
+target/
 .classpath
 .project
 .settings/org.eclipse.buildship.core.prefs
