@@ -23,6 +23,7 @@ allure {
     report {
         version.set(allureVersion)
     }
+
 }
 
 dependencies {
