@@ -23,6 +23,10 @@ allure {
     report {
         version.set(allureVersion)
     }
+    test {
+        useTestNG()
+        systemProperty 'allure.results.directory', 'build/allure-results'
+    }
 }
 
 dependencies {
