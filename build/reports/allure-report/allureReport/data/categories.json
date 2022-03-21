@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "No webdriver is bound to current thread: 14. You need to call open(url) first.",
+      "children" : [ {
+        "name" : "smokeTest()",
+        "uid" : "971493911453d2f9",
+        "parentUid" : "cec8eaf5ee12b55bd135d45fc8ab1d45",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647875108741,
+          "stop" : 1647875108964,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cec8eaf5ee12b55bd135d45fc8ab1d45"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

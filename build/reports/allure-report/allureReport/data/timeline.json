@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-Honor",
+    "children" : [ {
+      "name" : "22444@LAPTOP-Honor.Test worker(14)",
+      "children" : [ {
+        "name" : "smokeTest()",
+        "uid" : "971493911453d2f9",
+        "parentUid" : "b2757c4eb0ca74618b7b44950b6ecbb1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647875108741,
+          "stop" : 1647875108964,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "fillTestForm()",
+        "uid" : "ffa47534c31837a1",
+        "parentUid" : "b2757c4eb0ca74618b7b44950b6ecbb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647875109166,
+          "stop" : 1647875130885,
+          "duration" : 21719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2757c4eb0ca74618b7b44950b6ecbb1"
+    } ],
+    "uid" : "1db58bb331f4e3eb73674b7a84b1c455"
+  } ]
+}
