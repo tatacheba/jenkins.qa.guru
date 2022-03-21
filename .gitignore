@@ -29,7 +29,7 @@
 .gradle/
 allure-results/
 #gradle/
-build/
+#build/
 bin/
 out/
 logs/

@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Mar 18 22:39:46 MSK 2022","Fri Mar 18 22:39:58 MSK 2022","12326","","Les10TestFormJenkins","","Les10TestFormJenkins","fillTestForm","fillTestForm()",""
+"broken","Fri Mar 18 22:39:46 MSK 2022","Fri Mar 18 22:39:46 MSK 2022","191","","Les10TestFormJenkins","","Les10TestFormJenkins","smokeTest","smokeTest()",""
