@@ -40,23 +40,23 @@ public class Les10TestFormJenkins extends TestBase {
         step("Check Subject  ", () -> {
             $("#subjectsInput").setValue("Art").pressEnter();
         });
-        step("Check Hobby", () -> {
-            $(byText("Sports")).click();
-        });
-        step("Insert CurrentAddress ", () -> {
-            $("#currentAddress").setValue("Earth-616, New York City");
-        });
-        step("Insert State ", () -> {
-            $("#state").click();
-            $(byText("NCR")).click();
-        });
-        step("Insert city ", () -> {
-            $("#city").click();
-            $("#react-select-4-input").setValue("Noi").pressEnter();
-        });
-           step("Click button", () -> {
-            $(byText("Submit")).click();
-        });
+//        step("Check Hobby", () -> {
+//            $(byText("Sports")).click();
+//        });
+//        step("Insert CurrentAddress ", () -> {
+//            $("#currentAddress").setValue("Earth-616, New York City");
+//        });
+//        step("Insert State ", () -> {
+//            $("#state").click();
+//            $(byText("NCR")).click();
+//        });
+//        step("Insert city ", () -> {
+//            $("#city").click();
+//            $("#react-select-4-input").setValue("Noi").pressEnter();
+//        });
+//           step("Click button", () -> {
+//            $(byText("Submit")).click();
+//        });
 //        step("Assert data Modal Table", () -> {
 //            $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
 //            $("table").shouldHave(
