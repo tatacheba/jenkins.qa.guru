@@ -12,34 +12,34 @@ public class Les10TestFormJenkins extends TestBase {
     @Test
     @Tag("properties")
     void fillTestForm() {
-        step("Open page ", () -> {
-            open("/automation-practice-form");
-            $(".practice-form-wrapper > h5").shouldHave(text("Student Registration Form"));
-        });
-        step("Insert First Name ", () -> {
-            $("#firstName").setValue("Steve");
-        });
-        step("Insert Last Name  ", () -> {
-            $("#lastName").setValue("Rogers");
-        });
-        step("Insert User Email ", () -> {
-            $("#userEmail").setValue("captainamerica@marvel.com");
-        });
-        step("Check Gender  ", () -> {
-            $("#genterWrapper").find(byText("Male")).click();
-        });
-        step("Insert User Number ", () -> {
-            $("#userNumber").setValue("8885115480");
-        });
-        step("Check Date Birthday", () -> {
-            $("#dateOfBirthInput").click();
-            $(".react-datepicker__year-select").selectOptionByValue("1918");
-            $(".react-datepicker__month-select").selectOptionByValue("6");
-            $(".react-datepicker__day--004").click();
-        });
-        step("Check Subject  ", () -> {
-            $("#subjectsInput").setValue("Art").pressEnter();
-        });
+//        step("Open page ", () -> {
+//            open("/automation-practice-form");
+//            $(".practice-form-wrapper > h5").shouldHave(text("Student Registration Form"));
+//        });
+//        step("Insert First Name ", () -> {
+//            $("#firstName").setValue("Steve");
+//        });
+//        step("Insert Last Name  ", () -> {
+//            $("#lastName").setValue("Rogers");
+//        });
+//        step("Insert User Email ", () -> {
+//            $("#userEmail").setValue("captainamerica@marvel.com");
+//        });
+//        step("Check Gender  ", () -> {
+//            $("#genterWrapper").find(byText("Male")).click();
+//        });
+//        step("Insert User Number ", () -> {
+//            $("#userNumber").setValue("8885115480");
+//        });
+//        step("Check Date Birthday", () -> {
+//            $("#dateOfBirthInput").click();
+//            $(".react-datepicker__year-select").selectOptionByValue("1918");
+//            $(".react-datepicker__month-select").selectOptionByValue("6");
+//            $(".react-datepicker__day--004").click();
+//        });
+//        step("Check Subject  ", () -> {
+//            $("#subjectsInput").setValue("Art").pressEnter();
+//        });
 //        step("Check Hobby", () -> {
 //            $(byText("Sports")).click();
 //        });
