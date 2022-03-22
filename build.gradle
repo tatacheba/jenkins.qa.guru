@@ -29,7 +29,6 @@ allure {
 }
 
 dependencies {
-//    allureRawResultElements(files(layout.buildDirectory.dir("custom-allure-results")))
     testImplementation(
             "com.codeborne:selenide:$selenideVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
