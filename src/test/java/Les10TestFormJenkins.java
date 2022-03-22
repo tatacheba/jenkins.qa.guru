@@ -6,12 +6,14 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class Les10TestFormJenkins extends TestBase {
 
     @Test
     @Tag("properties")
     void fillTestForm() {
+        assertTrue(true);
 //        step("Open page ", () -> {
 //            open("/automation-practice-form");
 //            $(".practice-form-wrapper > h5").shouldHave(text("Student Registration Form"));
@@ -78,6 +80,7 @@ public class Les10TestFormJenkins extends TestBase {
     @Test
     @Tag("smoke")
     void smokeTest(){
+        assertTrue(true);
         System.out.println(System.getProperty("user"));
     }
 }
