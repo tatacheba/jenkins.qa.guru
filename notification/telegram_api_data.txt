@@ -3,9 +3,9 @@ CHAT_ID 786924974
 
 // Command in many lines (\ as separator)
 curl -X POST \
-     -H 'Content-Type: application/json' \
-     -d '{"chat_id": "786924974", "text": "This is a test from qa.guru"}' \
+     -H "Content-Type: application/json" \
+     -d "{"chat_id": "786924974", "text": "This is a test from qa.guru"}" \
      https://api.telegram.org/bot5250681536:AAFDIoXzRAMob9c8v0WDljG-CwEyL1K9Mek/sendMessage
 
 // Command in one line
-curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "786924974", "text": "This is a test from qa.guru"}' https://api.telegram.org/bot5250681536:AAFDIoXzRAMob9c8v0WDljG-CwEyL1K9Mek/sendMessage
+curl -X POST -H "Content-Type: application/json" -d '{"chat_id": "786924974", "text": "This is a test from qa.guru"}' https://api.telegram.org/bot5250681536:AAFDIoXzRAMob9c8v0WDljG-CwEyL1K9Mek/sendMessage
