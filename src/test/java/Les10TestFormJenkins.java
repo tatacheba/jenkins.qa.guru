@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class Les10TestFormJenkins extends TestBase {
 
     @Test
-    @Tag("properties")
+//    @Tag("properties")
     void fillTestForm() {
         assertTrue(true);
 //        step("Open page ", () -> {
