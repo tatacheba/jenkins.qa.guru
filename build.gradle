@@ -22,8 +22,7 @@ allure {
     }
     report {
         version.set(allureVersion)
-        reportDir = file('target/reports/allure-report')
-    }
+      }
 
 
 }
