@@ -14,6 +14,7 @@ def allureVersion = "2.17.3",
 allure {
     adapter {
         aspectjWeaver.set(true)
+        autoconfigure.set(true)
         frameworks {
             junit5 {
                 adapterVersion.set(allureVersion)
