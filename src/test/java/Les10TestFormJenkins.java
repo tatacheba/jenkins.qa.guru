@@ -76,8 +76,4 @@ public class Les10TestFormJenkins extends TestBase {
 
     }
 
-    @Test
-     void smokeTest(){
-        assertTrue(true);
-      }
 }
